@@ -43,6 +43,7 @@
 					</tr>
 				</tbody>
 			</table>
+			<p class="text-right"><?php echo $this->Html->link("もっとみる >>", array("controller" => "news"), array("class" => "btn btn-default btn-sm")); ?></p>
 		</section>
 		<section>
 			<div class="page-header">
@@ -78,6 +79,7 @@
 					</tr>
 				</tbody>
 			</table>
+			<p class="text-right"><?php echo $this->Html->link("もっとみる >>", array("controller" => "messages"), array("class" => "btn btn-default btn-sm")); ?></p>
 		</section>
 	</div>
 	<div class="col-lg-7">
