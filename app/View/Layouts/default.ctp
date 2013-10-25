@@ -35,14 +35,14 @@
 		</div>
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav">
-				<li><?php echo $this->Html->link("<i class=\"fa fa-info-circle\"></i> お知らせ", "#", array("escape" => false)); ?></li>
-				<li><?php echo $this->Html->link("<i class=\"fa fa-envelope-o\"></i> メッセージ", "#", array("escape" => false)); ?></li>
+				<li><?php echo $this->Html->link("<i class=\"fa fa-info-circle\"></i> お知らせ", array("controller" => "news"), array("escape" => false)); ?></li>
+				<li><?php echo $this->Html->link("<i class=\"fa fa-envelope-o\"></i> メッセージ", array("controller" => "messages"), array("escape" => false)); ?></li>
 				<li class="dropdown">
 					<?php echo $this->Html->link("<i class=\"fa fa-bell-o\"></i> 講義情報 <b class=\"caret\"></b>", "#", array("class" => "dropdown-toggle", "data-toggle" => "dropdown", "escape" => false)); ?> 
 					<ul class="dropdown-menu">
-						<li><?php echo $this->Html->link("<span class=\"badge pull-right\">3</span>休講情報", "#", array("escape" => false)); ?></li>
-						<li><?php echo $this->Html->link("<span class=\"badge pull-right\">6</span>補講情報", "#", array("escape" => false)); ?></li>
-						<li><?php echo $this->Html->link("<span class=\"badge pull-right\">1</span>時間割変更", "#", array("escape" => false)); ?></li>
+						<li><?php echo $this->Html->link("<span class=\"badge pull-right\">3</span>休講情報", array("controller" => "information", "action" => "cancelation"), array("escape" => false)); ?></li>
+						<li><?php echo $this->Html->link("<span class=\"badge pull-right\">6</span>補講情報", array("controller" => "information", "action" => "supplement"), array("escape" => false)); ?></li>
+						<li><?php echo $this->Html->link("<span class=\"badge pull-right\">1</span>時間割変更", array("controller" => "information", "action" => "change"), array("escape" => false)); ?></li>
 					</ul>
 				</li>
 			</ul>
