@@ -11,7 +11,7 @@
 	<div class="col-lg-5">
 		<section>
 			<div class="page-header">
-				<h3><span class="icon-info-sign"></span> お知らせ</h3>
+				<h3><i class="fa fa-info-circle"></i> お知らせ</h3>
 			</div>
 			<table class="table table-boarder table-condensed">
 				<thead>
@@ -46,7 +46,7 @@
 		</section>
 		<section>
 			<div class="page-header">
-				<h3><span class="icon-envelope-alt"> メッセージ</h3>
+				<h3><i class="fa fa-envelope-o"></i> メッセージ</h3>
 			</div>
 			<table class="table table-boarder table-condensed">
 				<thead>
@@ -83,7 +83,7 @@
 	<div class="col-lg-7">
 		<section>
 			<div class="page-header">
-				<h3><span class="icon-calendar"></span> 時間割</h3>
+				<h3><i class="fa fa-calendar"></i> 時間割</h3>
 			</div>
 			<div class="table-responsive">
 				<table class="table table-bordered table-striped table-condensed">

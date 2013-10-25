@@ -14,9 +14,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">　
 <?php echo $this->Html->css("/bootstrap-3.0.0/css/bootstrap.min.css"); ?>　
 <?php echo $this->Html->css("font-awesome.min.css"); ?>　
-<!--[if IE 7]>
-	<?php echo $this->Html->css("font-awesome-ie7.min.css"); ?>　
-<![endif]-->
 <?php echo $this->Html->css("common.css"); ?> 
 <?php echo $this->Html->script("jquery-1.10.2.min.js"); ?>　
 <?php echo $this->Html->script("/bootstrap-3.0.0/js/bootstrap.min.js"); ?>　
@@ -38,10 +35,10 @@
 		</div>
 		<div class="collapse navbar-collapse">
 			<ul class="nav navbar-nav">
-				<li><?php echo $this->Html->link("<span class=\"icon-info-sign\"></span> お知らせ", "#", array("escape" => false)); ?></li>
-				<li><?php echo $this->Html->link("<span class=\"icon-envelope-alt\"></span> メッセージ", "#", array("escape" => false)); ?></li>
+				<li><?php echo $this->Html->link("<i class=\"fa fa-info-circle\"></i> お知らせ", "#", array("escape" => false)); ?></li>
+				<li><?php echo $this->Html->link("<i class=\"fa fa-envelope-o\"></i> メッセージ", "#", array("escape" => false)); ?></li>
 				<li class="dropdown">
-					<?php echo $this->Html->link("<span class=\"icon-bell\"></span> 講義情報 <b class=\"caret\"></b>", "#", array("class" => "dropdown-toggle", "data-toggle" => "dropdown", "escape" => false)); ?> 
+					<?php echo $this->Html->link("<i class=\"fa fa-bell-o\"></i> 講義情報 <b class=\"caret\"></b>", "#", array("class" => "dropdown-toggle", "data-toggle" => "dropdown", "escape" => false)); ?> 
 					<ul class="dropdown-menu">
 						<li><?php echo $this->Html->link("<span class=\"badge pull-right\">3</span>休講情報", "#", array("escape" => false)); ?></li>
 						<li><?php echo $this->Html->link("<span class=\"badge pull-right\">6</span>補講情報", "#", array("escape" => false)); ?></li>
@@ -51,7 +48,7 @@
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
 				<li class="dropdown">
-					<?php echo $this->Html->link("<span class=\"icon-user\"></span> 工大 太郎 <b class=\"caret\"></b>", "#", array("class" => "dropdown-toggle", "data-toggle" => "dropdown", "escape" => false)); ?> 
+					<?php echo $this->Html->link("<i class=\"fa fa-user\"></i> 工大 太郎 <b class=\"caret\"></b>", "#", array("class" => "dropdown-toggle", "data-toggle" => "dropdown", "escape" => false)); ?> 
 					<ul class="dropdown-menu">
 						<li><?php echo $this->Html->link("履修一覧", "#"); ?></li>
 						<li><?php echo $this->Html->link("設定", "#"); ?></li>

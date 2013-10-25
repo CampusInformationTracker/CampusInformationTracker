@@ -9,7 +9,7 @@
 ?>
 <section>
 	<div class="page-header">
-		<h3><span class="icon-envelope-alt"></span> メッセージ</h3>
+		<h3><i class="fa fa-envelope-o"></i> メッセージ</h3>
 	</div>
 	<div class="panel-group" id="accordion">
 		<div class="panel panel-default">
